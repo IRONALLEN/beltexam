@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+  width: 600px;
+  font-size: 25px;
+  border: 3px solid black;
+}
+td:not(:last-child),
+th:not(:last-child) {
+  border-right: 3px solid black;
+}
+
+th {
+  background-color: grey;
+}
+td {
+  background-color: beige;
+}
