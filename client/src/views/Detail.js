@@ -48,7 +48,7 @@ const Detail = (props) => {
         </div>
       </div>
       <div className='bottom-box'>
-        <p>Pet Type: {pet.name}</p>
+        <p>Pet Type: {pet.type}</p>
         <p>Description: {pet.description}</p>
         <p>
           Skills:
